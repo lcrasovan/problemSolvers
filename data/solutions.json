@@ -1,0 +1,902 @@
+[
+  {
+    sum: 22,
+    vertices: [
+      3,
+      4,
+      8,
+      9,
+      7,
+      1
+    ],
+    centralNumber: 2
+  },
+  {
+    sum: 22,
+    vertices: [
+      3,
+      5,
+      7,
+      4,
+      12,
+      1
+    ],
+    centralNumber: 2
+  },
+  {
+    sum: 22,
+    vertices: [
+      3,
+      1,
+      8,
+      4,
+      11,
+      5
+    ],
+    centralNumber: 2
+  },
+  {
+    sum: 22,
+    vertices: [
+      1,
+      2,
+      6,
+      5,
+      10,
+      3
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 23,
+    vertices: [
+      1,
+      3,
+      2,
+      4,
+      8,
+      10
+    ],
+    centralNumber: 6
+  },
+  {
+    sum: 24,
+    vertices: [
+      3,
+      5,
+      9,
+      4,
+      8,
+      15
+    ],
+    centralNumber: 2
+  },
+  {
+    sum: 24,
+    vertices: [
+      2,
+      3,
+      5,
+      6,
+      11,
+      12
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 24,
+    vertices: [
+      1,
+      4,
+      2,
+      13,
+      3,
+      11
+    ],
+    centralNumber: 6
+  },
+  {
+    sum: 24,
+    vertices: [
+      1,
+      5,
+      12,
+      3,
+      2,
+      6
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 25,
+    vertices: [
+      4,
+      8,
+      16,
+      6,
+      5,
+      11
+    ],
+    centralNumber: 2
+  },
+  {
+    sum: 25,
+    vertices: [
+      4,
+      8,
+      7,
+      17,
+      5,
+      9
+    ],
+    centralNumber: 2
+  },
+  {
+    sum: 25,
+    vertices: [
+      2,
+      16,
+      8,
+      3,
+      10,
+      6
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 25,
+    vertices: [
+      2,
+      5,
+      8,
+      14,
+      10,
+      6
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 25,
+    vertices: [
+      1,
+      5,
+      7,
+      14,
+      2,
+      6
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 25,
+    vertices: [
+      1,
+      6,
+      2,
+      4,
+      12,
+      10
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 26,
+    vertices: [
+      3,
+      5,
+      10,
+      9,
+      16,
+      8
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 26,
+    vertices: [
+      1,
+      15,
+      4,
+      13,
+      2,
+      6
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 26,
+    vertices: [
+      6,
+      2,
+      5,
+      11,
+      14,
+      3
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 27,
+    vertices: [
+      6,
+      7,
+      17,
+      9,
+      13,
+      10
+    ],
+    centralNumber: 2
+  },
+  {
+    sum: 27,
+    vertices: [
+      19,
+      3,
+      8,
+      4,
+      11,
+      7
+    ],
+    centralNumber: 6
+  },
+  {
+    sum: 27,
+    vertices: [
+      7,
+      19,
+      3,
+      9,
+      10,
+      4
+    ],
+    centralNumber: 6
+  },
+  {
+    sum: 27,
+    vertices: [
+      5,
+      4,
+      8,
+      9,
+      7,
+      19
+    ],
+    centralNumber: 6
+  },
+  {
+    sum: 27,
+    vertices: [
+      18,
+      5,
+      7,
+      9,
+      2,
+      6
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 27,
+    vertices: [
+      1,
+      16,
+      2,
+      6,
+      7,
+      15
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 27,
+    vertices: [
+      1,
+      14,
+      6,
+      2,
+      9,
+      15
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 27,
+    vertices: [
+      3,
+      5,
+      7,
+      9,
+      17,
+      6
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 27,
+    vertices: [
+      1,
+      10,
+      4,
+      8,
+      2,
+      7
+    ],
+    centralNumber: 14
+  },
+  {
+    sum: 28,
+    vertices: [
+      5,
+      6,
+      15,
+      10,
+      16,
+      11
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 28,
+    vertices: [
+      1,
+      17,
+      4,
+      15,
+      2,
+      14
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 28,
+    vertices: [
+      17,
+      3,
+      7,
+      2,
+      14,
+      5
+    ],
+    centralNumber: 10
+  },
+  {
+    sum: 29,
+    vertices: [
+      8,
+      17,
+      11,
+      15,
+      9,
+      14
+    ],
+    centralNumber: 2
+  },
+  {
+    sum: 29,
+    vertices: [
+      6,
+      10,
+      18,
+      8,
+      16,
+      11
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 29,
+    vertices: [
+      18,
+      2,
+      13,
+      11,
+      3,
+      7
+    ],
+    centralNumber: 10
+  },
+  {
+    sum: 29,
+    vertices: [
+      17,
+      4,
+      6,
+      14,
+      12,
+      1
+    ],
+    centralNumber: 10
+  },
+  {
+    sum: 29,
+    vertices: [
+      16,
+      11,
+      3,
+      7,
+      4,
+      8
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 29,
+    vertices: [
+      12,
+      2,
+      10,
+      5,
+      6,
+      4
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 29,
+    vertices: [
+      1,
+      11,
+      3,
+      8,
+      7,
+      9
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 31,
+    vertices: [
+      19,
+      9,
+      17,
+      12,
+      13,
+      11
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 31,
+    vertices: [
+      10,
+      18,
+      8,
+      16,
+      14,
+      15
+    ],
+    centralNumber: 4
+  },
+  {
+    sum: 31,
+    vertices: [
+      4,
+      9,
+      17,
+      13,
+      16,
+      12
+    ],
+    centralNumber: 8
+  },
+  {
+    sum: 31,
+    vertices: [
+      19,
+      3,
+      16,
+      14,
+      6,
+      8
+    ],
+    centralNumber: 10
+  },
+  {
+    sum: 31,
+    vertices: [
+      7,
+      18,
+      2,
+      13,
+      17,
+      9
+    ],
+    centralNumber: 10
+  },
+  {
+    sum: 31,
+    vertices: [
+      14,
+      10,
+      2,
+      12,
+      4,
+      9
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 31,
+    vertices: [
+      12,
+      3,
+      9,
+      5,
+      11,
+      6
+    ],
+    centralNumber: 18
+  },
+  {
+    sum: 32,
+    vertices: [
+      3,
+      17,
+      13,
+      18,
+      6,
+      15
+    ],
+    centralNumber: 10
+  },
+  {
+    sum: 32,
+    vertices: [
+      19,
+      3,
+      16,
+      5,
+      18,
+      6
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 32,
+    vertices: [
+      15,
+      14,
+      5,
+      10,
+      4,
+      9
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 33,
+    vertices: [
+      19,
+      10,
+      16,
+      12,
+      18,
+      13
+    ],
+    centralNumber: 6
+  },
+  {
+    sum: 33,
+    vertices: [
+      19,
+      4,
+      18,
+      14,
+      13,
+      5
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 33,
+    vertices: [
+      2,
+      15,
+      13,
+      11,
+      18,
+      14
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 33,
+    vertices: [
+      3,
+      14,
+      17,
+      15,
+      13,
+      11
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 33,
+    vertices: [
+      6,
+      19,
+      5,
+      11,
+      18,
+      14
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 33,
+    vertices: [
+      1,
+      17,
+      12,
+      16,
+      9,
+      13
+    ],
+    centralNumber: 14
+  },
+  {
+    sum: 33,
+    vertices: [
+      16,
+      15,
+      1,
+      13,
+      11,
+      12
+    ],
+    centralNumber: 14
+  },
+  {
+    sum: 33,
+    vertices: [
+      10,
+      11,
+      17,
+      1,
+      13,
+      16
+    ],
+    centralNumber: 14
+  },
+  {
+    sum: 33,
+    vertices: [
+      14,
+      13,
+      3,
+      11,
+      7,
+      10
+    ],
+    centralNumber: 18
+  },
+  {
+    sum: 34,
+    vertices: [
+      14,
+      18,
+      15,
+      9,
+      6,
+      17
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 34,
+    vertices: [
+      14,
+      18,
+      7,
+      16,
+      5,
+      19
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 34,
+    vertices: [
+      9,
+      14,
+      17,
+      15,
+      18,
+      6
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 34,
+    vertices: [
+      17,
+      15,
+      10,
+      11,
+      4,
+      12
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 35,
+    vertices: [
+      19,
+      15,
+      13,
+      6,
+      18,
+      14
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 35,
+    vertices: [
+      8,
+      10,
+      19,
+      14,
+      18,
+      16
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 35,
+    vertices: [
+      18,
+      15,
+      12,
+      6,
+      10,
+      14
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 35,
+    vertices: [
+      4,
+      18,
+      14,
+      10,
+      17,
+      12
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 35,
+    vertices: [
+      16,
+      12,
+      13,
+      3,
+      15,
+      11
+    ],
+    centralNumber: 18
+  },
+  {
+    sum: 35,
+    vertices: [
+      14,
+      4,
+      12,
+      16,
+      9,
+      15
+    ],
+    centralNumber: 18
+  },
+  {
+    sum: 36,
+    vertices: [
+      19,
+      15,
+      8,
+      17,
+      18,
+      14
+    ],
+    centralNumber: 12
+  },
+  {
+    sum: 36,
+    vertices: [
+      19,
+      16,
+      18,
+      7,
+      17,
+      9
+    ],
+    centralNumber: 14
+  },
+  {
+    sum: 36,
+    vertices: [
+      18,
+      17,
+      15,
+      14,
+      9,
+      8
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 36,
+    vertices: [
+      17,
+      15,
+      11,
+      16,
+      12,
+      5
+    ],
+    centralNumber: 18
+  },
+  {
+    sum: 37,
+    vertices: [
+      19,
+      17,
+      18,
+      16,
+      12,
+      10
+    ],
+    centralNumber: 14
+  },
+  {
+    sum: 38,
+    vertices: [
+      19,
+      18,
+      14,
+      15,
+      10,
+      17
+    ],
+    centralNumber: 16
+  },
+  {
+    sum: 38,
+    vertices: [
+      12,
+      16,
+      9,
+      15,
+      17,
+      19
+    ],
+    centralNumber: 18
+  },
+  {
+    sum: 38,
+    vertices: [
+      8,
+      16,
+      13,
+      15,
+      17,
+      19
+    ],
+    centralNumber: 18
+  },
+  {
+    sum: 38,
+    vertices: [
+      11,
+      13,
+      19,
+      17,
+      16,
+      12
+    ],
+    centralNumber: 18
+  },
+];
