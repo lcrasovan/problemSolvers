@@ -11,18 +11,18 @@
         }
     );
 
-    hexagonLink.addEventListener("click", function () {
-            startMagicHexagonSimulator(edgeSum);
-        }
-    );
-
     selectPerimeter.addEventListener("change", function () {
             perimeter = selectPerimeter.value;
         }
     );
 
+    hexagonLink.addEventListener("click", function () {
+            startMagicHexagonSimulator(edgeSum);
+        }
+    );
+
     stickLink.addEventListener("click", function () {
-        launch12StickSimulation(perimeter);
+        launch12StickSimulation(parseInt(perimeter, 10));
     });
 
 })();

@@ -199,8 +199,7 @@ function D3Plotter() {
             .attr("fill", "blue");
 
     };
-
-
+    
     return this;
 }
 

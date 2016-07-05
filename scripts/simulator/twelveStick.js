@@ -18,17 +18,17 @@ function TwelveStickSolver(stickNumber) {
         3: {x: 0, y: 1},
         4: {x: -1, y: 0}
     };
+    this.startingPoint = {x: 12, y: 12};
 
-    this.getPointOne = function () {
+    this.getFirstPoint = function () {
         var nx = this.startingPoint.x;
         var ny = this.startingPoint.y - 1;
         return {x: nx, y: ny};
     };
 
-    this.startingPoint = {x: 12, y: 12};
     this.points.push(this.startingPoint);
-    var pointOne = this.getPointOne();
-    this.points.push(pointOne);
+    var firstPoint = this.getFirstPoint();
+    this.points.push(firstPoint);
 
     this.directions.push(1);
 
@@ -198,6 +198,7 @@ function TwelveStickSolver(stickNumber) {
                 }
             } else {
                 if (self.isClosedShape()) {
+                    console.log('is closed chape ....');
                     if (self.isNewSolution(self.directions)) {
                         self.numberSolutions++;
                         console.log(" ----- Solution #" + self.numberSolutions + " found -------");
