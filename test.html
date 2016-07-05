@@ -5,9 +5,52 @@
     <title>solvers and plotters</title>
 </head>
 <body>
+
+<h1>Solving some funny mathematical problems:</h1>
+<ul >
+    <li style="margin-bottom: 20px">Magic hexagon problem.
+        Choose Edge sum:
+        <select id="js-select-hexagon-edge">
+            <option id="val22" value="22" selected>22</option>
+            <option id="val23" value="23">23</option>
+            <option id="val24" value="24">24</option>
+            <option id="val25" value="25">25</option>
+            <option id="val26" value="26">26</option>
+            <option id="val27" value="27">27</option>
+            <option id="val28" value="28">28</option>
+            <option id="val29" value="29">29</option>
+            <option id="val31" value="31">31</option>
+            <option id="val32" value="32">32</option>
+            <option id="val33" value="33">33</option>
+            <option id="val34" value="34">34</option>
+            <option id="val35" value="35">35</option>
+            <option id="val36" value="36">36</option>
+            <option id="val37" value="37">37</option>
+            <option id="val38" value="38">38</option>
+
+        </select>
+        <a id="js-start-hexagon" style="padding:3px; background-color: #00aaaa; height: 16px; color: #ffffff; font-variant: small-caps">start</a>
+    </li>
+    <li>Constant perimeter problem. Choose perimeter:
+        <select id="js-select-perimeter-value">
+            <option id="p8" value="8" selected>8</option>
+            <option id="p10" value="10">10</option>
+            <option id="p12" value="12">12</option>
+            <option id="p14" value="14">14</option>
+            <option id="p16" value="16">16</option>
+            <option id="p18" value="18">18</option>
+            <option id="p20" value="20">20</option>
+        </select>
+        <a id="js-start-stick" style="padding:3px; background-color: #00aaaa; height: 16px; color: #ffffff; font-variant: small-caps">start</a>
+    </li>
+</ul>
+
 <script src="scripts/d3.min.js"></script>
 <script src="scripts/underscore-min.js"></script>
 <script type="text/javascript" src="scripts/simulator/helpers.js"></script>
+<script type="text/javascript" src="scripts/simulator/twelveStick.js"></script>
 <script type="text/javascript" src="scripts/simulator/sim.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+
 </body>
 </html>

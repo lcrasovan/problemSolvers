@@ -420,18 +420,18 @@ function MagicHexagonSolutionFinder(sum) {
     return this;
 }
 
-document.addEventListener('DOMContentLoaded', startMagicHexagonSimulator, false);
+//document.addEventListener('DOMContentLoaded', startMagicHexagonSimulator, false);
 //document.addEventListener('DOMContentLoaded', plotSolutions, false);
 
-function startMagicHexagonSimulator() {
+//document.addEventListener('DOMContentLoaded', launch12StickSimulation, false);
 
-    var edgeSum = 30;
-
-    var solutionFinder = new MagicHexagonSolutionFinder(edgeSum);
-    var logger = new Logger();
-    var plotter = new D3Plotter();
-
-    var candidateCentralNumbers = solutionFinder.getPossibleCentralNumbers();
+function startMagicHexagonSimulator(edgeSum) {
+    
+    var solutionFinder = new MagicHexagonSolutionFinder(edgeSum),
+        logger = new Logger(),
+        plotter = new D3Plotter(),
+        candidateCentralNumbers = solutionFinder.getPossibleCentralNumbers();
+    
     console.log('SOLUTION FINDING FOR EDGE SUM ' + edgeSum);
     _.each(candidateCentralNumbers, function(centralNumber) {
         console.log('CENTRAL NUMBER:' + centralNumber);

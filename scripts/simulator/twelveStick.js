@@ -3,9 +3,9 @@
  */
 'use strict';
 
-function TwelveStickSolver() {
+function TwelveStickSolver(stickNumber) {
 
-    this.stickNumber = 12;
+    this.stickNumber = stickNumber;
     this.points = [];
     this.directions = [];
     this.sum = {sx: 0, sy: 0};
@@ -251,7 +251,7 @@ function TwelveStickSolver() {
     return this;
 };
 
-function launch12StickSimulation() {
-    var solver = new TwelveStickSolver();
+function launch12StickSimulation(perimeter) {
+    var solver = new TwelveStickSolver(perimeter);
     solver.start();
 }

@@ -13,7 +13,7 @@ such that the sum of each edge in the construction equals the same amount
        6     11    12    10
 
           9     5     8
- 
+
   equivalent - computational formulation
 
      Find twelve combinations such that:
