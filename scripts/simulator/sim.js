@@ -420,11 +420,6 @@ function MagicHexagonSolutionFinder(sum) {
     return this;
 }
 
-//document.addEventListener('DOMContentLoaded', startMagicHexagonSimulator, false);
-//document.addEventListener('DOMContentLoaded', plotSolutions, false);
-
-//document.addEventListener('DOMContentLoaded', launch12StickSimulation, false);
-
 function startMagicHexagonSimulator(edgeSum) {
     
     var solutionFinder = new MagicHexagonSolutionFinder(edgeSum),

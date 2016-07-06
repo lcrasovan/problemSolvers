@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bcfc10-3933-46fa-b101-91c6c29639c3" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/simulator/twelveStick.js" afterPath="$PROJECT_DIR$/scripts/simulator/constantPerimeter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="$PROJECT_DIR$/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/simulator/helpers.js" afterPath="$PROJECT_DIR$/scripts/simulator/helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/simulator/twelveStick.js" afterPath="$PROJECT_DIR$/scripts/simulator/twelveStick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/simulator/sim.js" afterPath="$PROJECT_DIR$/scripts/simulator/sim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
     </list>
     <ignored path="problemSolvers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,18 +51,18 @@
       <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/simulator/helpers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+            <state relative-caret-position="286">
+              <caret line="236" column="40" selection-start-line="236" selection-start-column="40" selection-end-line="236" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sim.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sim.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/simulator/sim.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="462" column="45" selection-start-line="462" selection-start-column="45" selection-end-line="462" selection-end-column="45" />
+            <state relative-caret-position="331">
+              <caret line="433" column="35" selection-start-line="433" selection-start-column="35" selection-end-line="433" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -87,21 +88,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twelveStick.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/simulator/twelveStick.js">
+      <file leaf-file-name="constantPerimeter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/simulator/constantPerimeter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="217" column="44" selection-start-line="217" selection-start-column="44" selection-end-line="217" selection-end-column="44" />
+            <state relative-caret-position="346">
+              <caret line="205" column="83" selection-start-line="205" selection-start-column="83" selection-end-line="205" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="43" column="143" selection-start-line="33" selection-start-column="8" selection-end-line="43" selection-end-column="143" />
+            <state relative-caret-position="120">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -122,10 +123,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/data/solutions.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/scripts/simulator/sim.js" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
+        <option value="$PROJECT_DIR$/scripts/simulator/sim.js" />
         <option value="$PROJECT_DIR$/scripts/simulator/twelveStick.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/scripts/simulator/constantPerimeter.js" />
         <option value="$PROJECT_DIR$/scripts/simulator/helpers.js" />
       </list>
     </option>
@@ -278,12 +280,12 @@
       <updated>1467666613801</updated>
       <workItem from="1467666615121" duration="3768000" />
       <workItem from="1467703045932" duration="5290000" />
-      <workItem from="1467754440546" duration="1651000" />
+      <workItem from="1467754440546" duration="6828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10709000" />
+    <option name="totallyTimeSpent" value="15886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1212" height="777" extended-state="6" />
@@ -375,7 +377,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/simulator/twelveStick.js">
+    <entry file="file://$PROJECT_DIR$/scripts/simulator/constantPerimeter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -471,18 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="43" column="143" selection-start-line="33" selection-start-column="8" selection-end-line="43" selection-end-column="143" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -491,27 +481,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/simulator/twelveStick.js">
+    <entry file="file://$PROJECT_DIR$/scripts/simulator/sim.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="217" column="44" selection-start-line="217" selection-start-column="44" selection-end-line="217" selection-end-column="44" />
+        <state relative-caret-position="331">
+          <caret line="433" column="35" selection-start-line="433" selection-start-column="35" selection-end-line="433" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/simulator/constantPerimeter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="205" column="83" selection-start-line="205" selection-start-column="83" selection-end-line="205" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/simulator/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="236" column="40" selection-start-line="236" selection-start-column="40" selection-end-line="236" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/simulator/sim.js">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="462" column="45" selection-start-line="462" selection-start-column="45" selection-end-line="462" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

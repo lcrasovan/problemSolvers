@@ -181,7 +181,8 @@ function TwelveStickSolver(stickNumber) {
 
     this.find = function () {
         var self = this;
-        var startDir = 1;
+        var startDir = 1,
+            plotter = new D3Plotter();
 
         while (self.points.length < self.stickNumber + 2 && startDir > 0) {
             if (self.points.length < self.stickNumber + 1) {
@@ -203,6 +204,7 @@ function TwelveStickSolver(stickNumber) {
                         self.numberSolutions++;
                         console.log(" ----- Solution #" + self.numberSolutions + " found -------");
                         self.solutions.push(self.getSolutionInfo(self.directions));
+                        plotter.plotContour(self.directions, 'sol-' + self.numberSolutions, self.stickNumber);
                         console.log(self.getSolutionInfo(self.directions));
                         console.log(" --------------------");
                     } else if (self.isNewPossibleSolution(self.directions)) {

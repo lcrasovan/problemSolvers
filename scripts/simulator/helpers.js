@@ -199,6 +199,113 @@ function D3Plotter() {
             .attr("fill", "blue");
 
     };
+
+    
+    this.plotGrid = function(perimeter, id, svg) {
+        var minX = 0,
+            minY = 0,
+            stepX = 20, 
+            stepY = 20,
+            width = perimeter * stepX,
+            height = perimeter * stepY,
+            points = [];
+
+        points.push({x: minX, y: minY});
+        points.push({x: minX, y: height});
+        
+        svg.append("line")
+            .attr("x1", points[0].x)
+            .attr("y1", points[0].y)
+            .attr("x2", points[1].x)
+            .attr("y2", points[1].y)
+            .attr("stroke", "blue")
+            .attr("stroke-width", 1)
+            .attr("fill", "none");
+
+        
+        for(var indexX = 0; indexX <= perimeter; indexX++) {
+
+            points.push({x: indexX * stepX, y: minY});
+            points.push({x: indexX * stepX, y: height});
+
+            svg.append("line")
+                .attr("x1", points[2 + 2 * indexX].x)
+                .attr("y1", points[2 + 2 * indexX].y)
+                .attr("x2", points[3 + 2 * indexX].x)
+                .attr("y2", points[3 + 2 * indexX].y)
+                .attr("stroke", "blue")
+                .attr("stroke-width", 1)
+                .attr("fill", "none");
+
+        }
+
+        for(var indexY = 0; indexY <= perimeter + 2; indexY++) {
+            points.push({x: width, y: indexY * stepY});
+            points.push({x: minX, y: indexY * stepY});
+
+            svg.append("line")
+                .attr("x1", points[2 * perimeter + 2 * indexY].x)
+                .attr("y1", points[2 * perimeter + 2 * indexY].y)
+                .attr("x2", points[2 * perimeter + 2 * indexY + 1].x)
+                .attr("y2", points[2 * perimeter + 2 * indexY + 1].y)
+                .attr("stroke", "blue")
+                .attr("stroke-width", 1)
+                .attr("fill", "none");
+        }
+
+    };
+    
+    this.plotContour = function(directions, id, perimeter) {
+        var width = 2 * perimeter * 10,
+            height = 2 * perimeter * 10,
+            x = perimeter * 10,
+            y = perimeter * 10,
+            stepX = 20,
+            stepY = 20,
+            points = [];
+
+        points.push({x: x, y: y});
+
+        directions.forEach(function(direction) {
+            switch(direction) {
+                case 1:
+                    x += stepX;
+                    break;
+
+                case 2:
+                    y += stepY;
+                    break;
+
+                case 3:
+                    x -= stepX;
+                    break;
+
+                case 4:
+                    y -= stepY;
+                    break;
+
+            }
+            points.push({x: x, y: y});
+        });
+
+        var lineFunction = d3.svg.line()
+                                .x(function(d) { return d.x; })
+                                .y(function(d) { return d.y; });
+
+        var svg = d3.select("body")
+            .append(id)
+            .append('svg:svg')
+            .attr("width", width)
+            .attr("height", height);
+        
+        this.plotGrid(perimeter, id, svg);
+
+        svg.append("path")
+            .attr("d", lineFunction(points))
+            .attr("stroke", "blue")
+            .attr("stroke-width", 2)
+            .attr("fill", "none");
+    };
     
     return this;
 }
