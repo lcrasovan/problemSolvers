@@ -27,7 +27,7 @@ such that the sum of each edge in the construction equals the same amount
 
  uses underscoreJs and D3 for graphics
 
-**TWELVE STICKS PROBLEMS / CONSTANT PERIMETER PROBLEM**
+**TWELVE STICKS PROBLEM / CONSTANT PERIMETER PROBLEM**
  
 Find all closed shapes on a quadricular grid that have the same perimeter
 
