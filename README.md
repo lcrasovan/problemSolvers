@@ -1,7 +1,7 @@
 
 This is intended to be a space for problem solving using various JS tools and libraries
 
-1. MAGIC HEXAGON PROBLEM
+**MAGIC HEXAGON PROBLEM**
 
 such that the sum of each edge in the construction equals the same amount
 
@@ -26,8 +26,8 @@ such that the sum of each edge in the construction equals the same amount
      12 numbers appear only once
 
  uses underscoreJs and D3 for graphics
- 
- 2. TWELVE STICKS PROBLEMS / CONSTANT PERIMETER PROBLEM
+
+**TWELVE STICKS PROBLEMS / CONSTANT PERIMETER PROBLEM**
  
 Find all closed shapes on a quadricular grid that have the same perimeter
 
