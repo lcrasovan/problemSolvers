@@ -1,5 +1,8 @@
 
-This solves the problem of the magic hexagon
+This is intended to be a space for problem solving using various JS tools and libraries
+
+1. MAGIC HEXAGON PROBLEM
+
 such that the sum of each edge in the construction equals the same amount
 
  one solution for sum 22 is
@@ -23,3 +26,16 @@ such that the sum of each edge in the construction equals the same amount
      12 numbers appear only once
 
  uses underscoreJs and D3 for graphics
+ 
+ 2. TWELVE STICKS PROBLEMS / CONSTANT PERIMETER PROBLEM
+ 
+Find all closed shapes on a quadricular grid that have the same perimeter
+
+Equivalent stick problem: find all closed quadricular shapes one can build with an even number of sticks of the same length
+
+The solution finder - based on the backtracking algorithm  - is built in JS using the D3 library for graphics
+
+Enjoy!
+
+
+ 
