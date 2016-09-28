@@ -26,6 +26,7 @@ such that the sum of each edge in the construction equals the same amount
      12 numbers appear only once
 
  uses underscoreJs and D3 for graphics
+ nice concepts as recursivity and memoising are illustrated
 
 **TWELVE STICKS PROBLEM / CONSTANT PERIMETER PROBLEM**
  
