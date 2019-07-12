@@ -302,9 +302,9 @@ function D3Plotter() {
 
         svg.append("path")
             .attr("d", lineFunction(points))
-            .attr("stroke", "blue")
+            .attr("stroke", "black")
             .attr("stroke-width", 2)
-            .attr("fill", "none");
+            .attr("fill", "green");
     };
     
     return this;
